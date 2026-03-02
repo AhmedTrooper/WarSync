@@ -1,34 +1,32 @@
 # WarSync
 
-WarSync is a curated war-channel directory built with Next.js + Bun.
-Users can discover channels quickly, open source accounts, and you can track engagement with analytics events.
+WarSync is a public directory of war-update channels, organized by category so people can quickly find and follow sources in one place.
 
-## Stack
+## Live Project
+
+- Open issues / suggest new links: https://github.com/AhmedTrooper/WarSync/issues
+- Star the repo: https://github.com/AhmedTrooper/WarSync
+
+## What This Project Does
+
+- Lists curated channel links by category.
+- Lets users search by channel name, handle, or category.
+- Tracks engagement events (for example, channel link clicks).
+- Makes community submissions easy through GitHub Issues.
+
+## Tech Stack
 
 - Next.js App Router
-- Bun package manager/runtime
-- Tailwind CSS v4 + shadcn tokens
-- Vercel Analytics (`@vercel/analytics`)
+- Bun (package manager/runtime)
+- Tailwind CSS v4 + shadcn/ui components
+- Vercel Analytics
 
-## Data Source
+## Data Location
 
-Channel data lives in:
+- Channel list JSON: `lib/data/channels.json`
+- Typed data access layer: `lib/data/channels.ts`
 
-- `lib/data/channels.json`
-
-Typed accessors are in:
-
-- `lib/data/channels.ts`
-
-## Suggest New Links
-
-Anyone can suggest a new channel by opening a GitHub issue:
-
-- `https://github.com/AhmedTrooper/4/issues/new`
-
-The UI also includes an **Add New Link (Issue)** button for this.
-
-## Run Locally (Bun)
+## Run Locally
 
 ```bash
 bun install
@@ -36,32 +34,49 @@ cp .env.example .env.local
 bun run dev
 ```
 
-Open `http://localhost:3000`.
+App runs at `http://localhost:3000`.
 
 ## Environment Variables
 
-Template file:
+Use `.env.example` as your template.
 
-- `.env.example`
+- `NEXT_PUBLIC_SITE_URL` (recommended)
+- `NEXT_PUBLIC_GA_MEASUREMENT_ID` (optional, only if adding Google Analytics)
 
-Current status:
+Notes:
 
-- No required env vars for the current app.
-- Vercel Analytics works without any key.
-- `NEXT_PUBLIC_GA_MEASUREMENT_ID` is optional (only if you later add Google Analytics).
+- No required env vars for current functionality.
+- Vercel Analytics works without extra keys.
 
-## Analytics: Vercel vs Google
+## Analytics Recommendation
 
-For this project, **Vercel Analytics is the best default** because:
+For this project, Vercel Analytics is the best default:
 
-- fastest setup in a Next.js app
+- fastest setup for Next.js
 - no extra script management
-- clean integration with deploy previews/production
-- event tracking already wired for channel clicks
+- easy visibility across preview + production deployments
 
-Use Google Analytics when you specifically need advanced ad attribution, cross-property reporting, or existing GA dashboards.
+Use Google Analytics only if you need advanced attribution or existing GA reporting workflows.
 
-## Deploy
+## Contributing
 
-Deploy on Vercel for the smoothest setup.
-Once deployed, analytics events start appearing in the Vercel dashboard.
+To add a new channel, open an issue and include:
+
+- Channel name
+- @handle
+- URL
+- Suggested category
+
+Issue page: https://github.com/AhmedTrooper/WarSync/issues
+
+## Deployment
+
+Deploy on Vercel for the simplest setup.
+
+```bash
+bun run build
+```
+
+## Disclaimer
+
+WarSync aggregates external sources for tracking and discovery. Content can be biased, incomplete, or incorrect. Always verify critical information using multiple independent sources.
