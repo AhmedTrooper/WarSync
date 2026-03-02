@@ -1,0 +1,81 @@
+[
+  {
+    "category": "Official Government & Military",
+    "accounts": [
+      { "id": "CENTCOM", "name": "US Central Command", "url": "https://x.com/CENTCOM" },
+      { "id": "s_m_marandi", "name": "Seyed Mohammad Marandi", "url": "https://x.com/s_m_marandi" }
+    ]
+  },
+  {
+    "category": "Pro-Iran / Axis of Resistance",
+    "accounts": [
+      { "id": "IranObserver0", "name": "Iran Observer", "url": "https://x.com/IranObserver0" },
+      { "id": "ME_Observer_", "name": "Middle East Observer", "url": "https://x.com/ME_Observer_" },
+      { "id": "MonitorX99800", "name": "MonitorX", "url": "https://x.com/MonitorX99800" },
+      { "id": "MyLordBebo", "name": "Lord Bebo", "url": "https://x.com/MyLordBebo" },
+      { "id": "sahouraxo", "name": "Sahoura", "url": "https://x.com/sahouraxo" },
+      { "id": "Partisangirl", "name": "Partisan Girl", "url": "https://x.com/Partisangirl" },
+      { "id": "pati_marins64", "name": "Pati Marins", "url": "https://x.com/pati_marins64" },
+      { "id": "AryJeay", "name": "Ary Jeay", "url": "https://x.com/AryJeay" },
+      { "id": "Leelako", "name": "Leelako", "url": "https://x.com/Leelako" },
+      { "id": "RyanRozbiani", "name": "Ryan Rozbiani", "url": "https://x.com/RyanRozbiani" },
+      { "id": "LeylaRostami", "name": "Leyla Rostami", "url": "https://x.com/LeylaRostami" },
+      { "id": "DI313_", "name": "DI313", "url": "https://x.com/DI313_" },
+      { "id": "hmdmosavi", "name": "HMD Mosavi", "url": "https://x.com/hmdmosavi" },
+      { "id": "fresh_sadegh", "name": "Fresh Sadegh", "url": "https://x.com/fresh_sadegh" },
+      { "id": "AliR_Ahmadi", "name": "Ali R Ahmadi", "url": "https://x.com/AliR_Ahmadi" },
+      { "id": "ejmalrai", "name": "Elijah J. Magnier", "url": "https://x.com/ejmalrai" }
+    ]
+  },
+  {
+    "category": "Pro-Israel",
+    "accounts": [
+      { "id": "Osint613", "name": "Osint613", "url": "https://x.com/Osint613" }
+    ]
+  },
+  {
+    "category": "Pro-Ukraine / Western-Aligned",
+    "accounts": [
+      { "id": "wartranslated", "name": "WarTranslated", "url": "https://x.com/wartranslated" }
+    ]
+  },
+  {
+    "category": "Data, Radar & OSINT",
+    "accounts": [
+      { "id": "NavCom24", "name": "NavCom24", "url": "https://x.com/NavCom24" },
+      { "id": "AirNavRadar", "name": "AirNavRadar", "url": "https://x.com/AirNavRadar" },
+      { "id": "AirSpecInt", "name": "AirSpecInt", "url": "https://x.com/AirSpecInt" },
+      { "id": "Globalsurv", "name": "GlobalSurv", "url": "https://x.com/Globalsurv" },
+      { "id": "Recon_surv", "name": "Recon Surv", "url": "https://x.com/Recon_surv" },
+      { "id": "AMK_Mapping_", "name": "AMK Mapping", "url": "https://x.com/AMK_Mapping_" },
+      { "id": "War_Analysts", "name": "War Analysts", "url": "https://x.com/War_Analysts" },
+      { "id": "DeptofWar", "name": "Dept of War", "url": "https://x.com/DeptofWar" },
+      { "id": "OSINTWarfare", "name": "OSINT Warfare", "url": "https://x.com/OSINTWarfare" },
+      { "id": "MenchOsint", "name": "MenchOsint", "url": "https://x.com/MenchOsint" },
+      { "id": "Defence_Journl", "name": "Defence Journal", "url": "https://x.com/Defence_Journl" },
+      { "id": "cirnosad", "name": "Cirnosad", "url": "https://x.com/cirnosad" },
+      { "id": "5472_nde", "name": "5472_nde", "url": "https://x.com/5472_nde" },
+      { "id": "ALERTX360", "name": "ALERTX360", "url": "https://x.com/ALERTX360" },
+      { "id": "propandco", "name": "Prop and Co", "url": "https://x.com/propandco" },
+      { "id": "LillyFoz", "name": "LillyFoz", "url": "https://x.com/LillyFoz" }
+    ]
+  },
+  {
+    "category": "South Asia Regional",
+    "accounts": [
+      { "id": "Defres360", "name": "Defres360 (BD)", "url": "https://x.com/Defres360" },
+      { "id": "Hawkss_eye", "name": "Hawkss Eye (PK)", "url": "https://x.com/Hawkss_eye" },
+      { "id": "osintPk", "name": "OSINT Pk (PK)", "url": "https://x.com/osintPk" }
+    ]
+  },
+  {
+    "category": "Broad Aggregators & Commentators",
+    "accounts": [
+      { "id": "WarMonitors", "name": "War Monitor", "url": "https://x.com/WarMonitors" },
+      { "id": "GlobeEyeNews", "name": "Globe Eye News", "url": "https://x.com/GlobeEyeNews" },
+      { "id": "worldnconflicts", "name": "World Conflicts", "url": "https://x.com/worldnconflicts" },
+      { "id": "The_Kremlinn", "name": "The Kremlinn", "url": "https://x.com/The_Kremlinn" },
+      { "id": "MattWallace888", "name": "Matt Wallace", "url": "https://x.com/MattWallace888" }
+    ]
+  }
+]
